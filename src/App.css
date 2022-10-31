@@ -1,39 +1,79 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-html{
+html {
   overflow: hidden;
 }
-body{
+body {
   overflow-x: hidden;
 }
-main{
+main {
   display: flex;
   justify-content: center;
   max-width: 1010px;
   width: 100%;
   min-height: 100vh;
 }
-.lintree-wrapper, .linktree-page{
+.lintree-wrapper,
+.linktree-page {
   width: 100%;
   display: flex;
   flex-wrap: nowrap;
 }
-.linktree-header{
+.linktree-header {
   display: block;
   width: 100%;
 }
-.share{
+.share {
   display: flex;
   justify-content: flex-end;
   align-items: center;
   width: 100%;
 }
-.profile-wrapper{
+.profile-wrapper {
   display: grid;
   place-items: center;
   grid-template-columns: 1fr, 100%;
   justify-content: center;
+}
+.profile-inner {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  position: relative;
+  border: 1px solid #333;
+}
+.profile-inner img:is(#profile__img) {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.camera {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0px 0px 8px;
+  position: absolute;
+  width: 5rem;
+  height: 5rem;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background: linear-gradient(
+      0deg,
+      rgba(52, 64, 84, 0.75),
+      rgba(60, 67, 81, 0.75)
+    );
+  border-radius: 275px;
+  background-repeat: no-repeat;
+  transform: scale(0);
+  transition: transform 250ms;
+}
+.profile-inner:hover .camera {
+  transform: scale(1);
+
 }

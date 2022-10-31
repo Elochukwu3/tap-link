@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import share from './icons/share.png';
 import dotShare from './icons/dot.png';
+import camera from './icons/camera.svg';
 import profile from './images/wearingglass.png'
 
 function App() {
@@ -17,8 +18,12 @@ function App() {
           <span><img src={dotShare} alt='dot-btn'/></span>
         </div>
         <div className='profile-wrapper'>
-           <div>
+           <div  className='profile-inner' cam={camera}>
             <img id='profile__img' src={profile}alt='profile'/>
+            <span className='camera'>
+            <img src={camera} alt='camera' style={{color:'transparent'}}/>
+            </span>
+           
            </div>
         </div>
         </section>

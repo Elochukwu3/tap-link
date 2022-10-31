@@ -16,3 +16,24 @@ main{
   width: 100%;
   min-height: 100vh;
 }
+.lintree-wrapper, .linktree-page{
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.linktree-header{
+  display: block;
+  width: 100%;
+}
+.share{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+}
+.profile-wrapper{
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1fr, 100%;
+  justify-content: center;
+}

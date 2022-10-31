@@ -202,3 +202,17 @@ font-weight: 600;
   transform-origin: bottom;
   
 }
+footer{
+  width: 100%;
+}
+.link-tree-footer-content {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: initial;
+  width: 100%;
+border-top: 1px solid #eaecf0;
+justify-content: space-between;
+min-height: 100px;
+}

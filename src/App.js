@@ -1,4 +1,4 @@
-
+// import 
 import './App.css';
 
 function App() {
@@ -9,7 +9,8 @@ function App() {
       <div className='lintree-wrapper'>
         <section className='linktree-header'>
         <div className='share'>
-
+          <span>share</span>
+          <span>dot</span>
         </div>
         </section>
       </div>

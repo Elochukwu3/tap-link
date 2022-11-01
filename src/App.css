@@ -247,4 +247,7 @@ min-height: 100px;
 .share .share-two{
   display: flex;
 }
+main {
+  padding: 2rem 2.1rem;
+}
 }

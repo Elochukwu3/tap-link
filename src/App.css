@@ -133,6 +133,7 @@ margin:  .6rem auto;
   color: #101828;
 font-size: 14px;
 font-weight: 600;
+z-index: 1000;
 }
 .link-items:hover{
   background-color: #d0d0d1;

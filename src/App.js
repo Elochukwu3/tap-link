@@ -1,24 +1,24 @@
 import React from 'react';
 import './App.css';
-import share from './icons/share.png';
 import dotShare from './icons/dot.png';
 import camera from './icons/camera.svg';
+import share from './icons/share.png';
 import git from './icons/git.svg';
 import slak from './icons/slack.svg';
 import good from './icons/good.svg';
-import profile from './images/wearingglass.png'
+import profile from './images/wearingglass.png';
+import Button from './Button';
 
 function App() {
-  console.log(share);
   return (
     <div className="App">
      <main>
       <div className='linktree-page'>
       <div className='lintree-wrapper'>
         <section className='linktree-header'>
-        <div className='share'>
+        <div className='share' data={'share'}>
           <span className='share-icon-upper'><img src={share} alt='share'/></span>
-          <span><img src={dotShare} alt='dot-btn'/></span>
+          <span className='share-two'><img src={dotShare} alt='dot-btn'/></span>
         </div>
         <div className='profile-wrapper'>
            <div  className='profile-inner' cam={camera}>
@@ -33,18 +33,13 @@ function App() {
         </section>
         <section className='lintree-section'>
           <div className='lintree-wrap'>
-          <div className='linktree-content'>
-            <div>
             
-              <a href='#'  className='link-items'>
-              <span></span>
-                Twitter
-              <span>
-                <img src={share} alt='share inner' className='share-icon'/>
-              </span>
-                </a>
-            </div>
-          </div>
+          <Button altn={'tweet'}name={"Twitter"} link={'https://twitter.com/romauld_j'} ide={"twitter"} attr={"Redirect to my twitter page"}/>
+          <Button altn={'tweet'}name={"Zuri Coders Meet"} link={'http://training.zuri.team/'} ide={"btn__zuri"} attr={"Welcome to Zuri"}/>
+          <Button altn={'tweet'}name={"Discover More About Zuri Book"} link={'https://books.zuri.team'} ide={"books"} attr={"Discover more about zuri books. With premium and more free books to grab"}/>
+          <Button altn={'tweet'}name={"Python Book for Beginners"} link={'https://books.zuri.team/python-for-beginners?ref_id=<romauld>'} ide={"book__python"} attr={"Checkout the renowned zuri python books. Perfectly for beginners"}/>
+          <Button altn={'tweet'}name={"Zuri Tech-Haunt"} link={'https://background.zuri.team'} ide={"pitch"} attr={"Feel the experience of collaboration. Visit the zuri community program"}/>
+          <Button altn={'tweet'}name={"Free UI Design Book"} link={'https://books.zuri.team/design-rules'} ide={"book__design"} attr={"Be the best designer!!!, Grab a copy and be a legendary designer"}/>
           </div>
         </section>
         <div>

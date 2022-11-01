@@ -44,10 +44,10 @@ function App() {
           <div className='lintree-wrap'>
             
           <Button shareSocial={shareLink}altn={'tweet'}name={"Twitter"} link={'https://twitter.com/romauld_j'} ide={"twitter"} attr={"Redirect to my twitter page"}/>
-          <Button shareSocial={shareLink} altn={'tweet'}name={"Zuri Coders Meet"} link={'http://training.zuri.team/'} ide={"btn__zuri"} attr={"Welcome to Zuri"}/>
-          <Button shareSocial={shareLink} altn={'tweet'}name={"Discover More About Zuri Book"} link={'https://books.zuri.team'} ide={"books"} attr={"Discover more about zuri books. With premium and more free books to grab"}/>
-          <Button shareSocial={shareLink} altn={'tweet'}name={"Python Book for Beginners"} link={'https://books.zuri.team/python-for-beginners?ref_id=<romauld>'} ide={"book__python"} attr={"Checkout the renowned zuri python books. Perfectly for beginners"}/>
-          <Button shareSocial={shareLink} altn={'tweet'}name={"Zuri Tech-Haunt"} link={'https://background.zuri.team'} ide={"pitch"} attr={"Feel the experience of collaboration. Visit the zuri community program"}/>
+          <Button shareSocial={shareLink} altn={'for coders'}name={"Zuri Coders Meet"} link={'http://training.zuri.team/'} ide={"btn__zuri"} attr={"Welcome to Zuri"}/>
+          <Button shareSocial={shareLink} altn={'discover more'}name={"Discover More About Zuri Book"} link={'https://books.zuri.team'} ide={"books"} attr={"Discover more about zuri books. With premium and more free books to grab"}/>
+          <Button shareSocial={shareLink} altn={'phthone'}name={"Python Book for Beginners"} link={'https://books.zuri.team/python-for-beginners?ref_id=<romauld>'} ide={"book__python"} attr={"Checkout the renowned zuri python books. Perfectly for beginners"}/>
+          <Button shareSocial={shareLink} altn={'pitch'}name={"Zuri Tech-Haunt"} link={'https://background.zuri.team'} ide={"pitch"} attr={"Feel the experience of collaboration. Visit the zuri community program"}/>
           <Button shareSocial={shareLink} altn={'tweet'}name={"Free UI Design Book"} link={'https://books.zuri.team/design-rules'} ide={"book__design"} attr={"Be the best designer!!!, Grab a copy and be a legendary designer"}/>
           </div>
         </section>

@@ -6,10 +6,10 @@ import camera from './icons/camera.svg';
 import share from './icons/share.png';
 import git from './icons/git.svg';
 import slak from './icons/slack.svg';
-
 import profile from './images/wearingglass.png';
 import Button from './Button';
-import Footer from './Footer';
+import { Link } from 'react-router-dom';
+
 
 function App() {
   const shareLink= async(url)=>{
@@ -50,6 +50,9 @@ function App() {
           <Button shareSocial={shareLink} altn={'phthone'}name={"Python Book for Beginners"} link={'https://books.zuri.team/python-for-beginners?ref_id=<romauld>'} ide={"book__python"} attr={"Checkout the renowned zuri python books. Perfectly for beginners"}/>
           <Button shareSocial={shareLink} altn={'pitch'}name={"Zuri Tech-Haunt"} link={'https://background.zuri.team'} ide={"pitch"} attr={"Feel the experience of collaboration. Visit the zuri community program"}/>
           <Button shareSocial={shareLink} altn={'tweet'}name={"Free UI Design Book"} link={'https://books.zuri.team/design-rules'} ide={"book__design"} attr={"Be the best designer!!!, Grab a copy and be a legendary designer"}/>
+          <Button shareSocial={shareLink} altn={'contacts'}name={"contact"} link={'/contact'} ide={"contact"} attr={"hey click to contact us"}/>
+          
+        
           </div>
         </section>
         <div>
@@ -61,7 +64,7 @@ function App() {
           </a>
         </div>
       </div>
-    <><Footer/></>
+    {/* <><Footer/></> */}
       </div>
      </main>
     </div>

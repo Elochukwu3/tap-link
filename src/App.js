@@ -107,14 +107,14 @@ function App() {
                     "Be the best designer!!!, Grab a copy and be a legendary designer"
                   }
                 />
-                {/* <Button
+                <Button
                   shareSocial={shareLink}
                   altn={"contacts"}
                   name={"contact"}
                   link={"/contact"}
                   ide={"contact"}
                   attr={"hey click to contact us"}
-                /> */}
+                />
               </div>
             </section>
             <div>

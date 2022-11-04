@@ -15,8 +15,7 @@
   justify-content: center;
   width: 100%;
 }
-.form-wrapper {
-}
+
 .form-cont {
   display: flex;
   justify-content: center;
@@ -39,7 +38,7 @@
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
-  font-size: 36px;
+  font-size: 31px;
   line-height: 44px;
   letter-spacing: -0.02em;
   color: #101828;

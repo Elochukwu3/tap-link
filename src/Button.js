@@ -6,7 +6,7 @@ export default function Button({name, attr, altn, link, ide, shareSocial}) {
   return (<div className='linktree-content' data={attr}>
               <div>
             
-              <a href={link}  className='link-items' id={ide} onClick={()=>shareSocial(link)} target="_blank"
+              <a href={link}  className='link-items' id={ide} onClick={()=>shareSocial(link)} 
    rel="noopener noreferrer">
               <span></span>
                 {name}

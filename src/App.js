@@ -6,9 +6,10 @@ import camera from './icons/camera.svg';
 import share from './icons/share.png';
 import git from './icons/git.svg';
 import slak from './icons/slack.svg';
-import good from './icons/good.svg';
+
 import profile from './images/wearingglass.png';
 import Button from './Button';
+import Footer from './Footer';
 
 function App() {
   const shareLink= async(url)=>{
@@ -60,27 +61,7 @@ function App() {
           </a>
         </div>
       </div>
-      <footer className='link-tree-footer'>
-        <div className='link-tree-footer-content'>
-
-      <div style={{display: 'flex', alignItems:'center'}}>
-     <h2> Zuri </h2><span style={{background: "#e7332b",
-borderRadius: "50%",
-display: 'inline-block',
-height: '8px',
-width: '8px',
-margin: '0 .5rem'}}></span> 
-<h2>Internship</h2>
-      </div>
-      <div style={{color:'grey'}}>
-      HNG Internship 9 Frontend Task
-      </div>
-      <div>
-        <img src={good} alt='food logo'/>
-      </div>
-      
-      </div>
-      </footer>
+    <><Footer/></>
       </div>
      </main>
     </div>

@@ -1,0 +1,45 @@
+
+.form-container{
+    position: relative;
+width: 1440px;
+height: 1120px;
+
+background: #FFFFFF;
+}
+.form-inner{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 64px 0px 96px;
+gap: 64px;
+
+position: absolute;
+width: 1440px;
+height: 960px;
+left: 0px;
+top: 0px;
+
+}
+.form-wrapper{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px 32px;
+gap: 64px;
+
+width: 1280px;
+height: 800px;
+
+}
+.form-contet{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 48px;
+
+width: 720px;
+height: 616px;
+}

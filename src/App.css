@@ -218,7 +218,8 @@ z-index: 1000;
   
 }
 footer{
-  width: 100%;
+  width: 100vw;
+  padding: 0 15px;
 }
 .link-tree-footer-content {
   align-items: center;
@@ -250,4 +251,4 @@ min-height: 100px;
 main {
   padding: 2rem 2.1rem;
 }
-}
+} 

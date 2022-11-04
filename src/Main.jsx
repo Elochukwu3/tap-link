@@ -6,12 +6,12 @@ import Footer from './Footer';
 import './App.css';
 export default function Main() {
   return (
-    <div>
+    <>
         <Routes>
             <Route path='/' element={<App/>}/>
           <Route path={"/contact"} element={<Contacts/>}/>
          </Routes>
           <Footer/>
-    </div>
+    </>
   )
 }
